@@ -1,0 +1,96 @@
+if game.PlaceId == 9098583285 then
+local Owner = game:GetService("Players"):GetPlayerByUserId(3393350772)
+local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/9XavierX/Lucid-Ware/main/MainModule/SolarisLib.lua"))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/9XavierX/Lucid-Ware/main/NotificationLIB.lua"))()
+NotifyLib.prompt('UHM Backdoor', 'Loading shit...', 3)
+NotifyLib.prompt('UHM Backdoor', 'Laughing at terrible anti cheat...', 5)
+wait(2)
+local Window = SolarisLib:New({ Name = "UHM Backdoor", FolderToSave = "UHMBackDoor"})
+NotifyLib.prompt('UHM Backdoor', 'Ready to fuck shit up!', 2)
+
+--//Tabs
+
+local MainTab = Window:Tab("Main")
+local PlayerTab = Window:Tab("Aim")
+local TeleportsTab = Window:Tab("Teleports")
+local VisualsTab = Window:Tab("Other")
+
+--//Sections
+
+local CombatSectionMain = MainTab:Section("Main Backdoor")
+local MovementSectionPlayer = PlayerTab:Section("Locks")
+local ExtraSectionPlayer = PlayerTab:Section("Aim")
+local GunsSectionTeleports = TeleportsTab:Section("Places")
+local FoodSectionTeleports = TeleportsTab:Section("Extra")
+local EspSectionVisuals = VisualsTab:Section("Other Stuff")
+
+--//Button teleports
+--[[
+
+    sec:Button("Button", function()
+        SolarisLib:Notification("Test", "This is a notification test.")
+    end)
+
+--]]
+
+    GunsSectionTeleports:Button("Rolex", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-835.826172, 73.0320969, -726.743042, -0.999987423, 3.37424977e-10, 0.00502100401, 8.23855817e-10, 1, 9.68771374e-08, -0.00502100401, 9.68800506e-08, -0.999987423)
+    end)
+
+    GunsSectionTeleports:Button("Admin Base", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-630.78186, 84.7871017, -632.437744, 0.999993563, -9.4377782e-08, 0.0035897526, 9.45151371e-08, 1, -3.8094047e-08, -0.0035897526, 3.84330896e-08, 0.999993563)
+    end)
+
+    GunsSectionTeleports:Button("Gym", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(292.096741, 94.8319855, -554.518005, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    GunsSectionTeleports:Button("DB", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(335.234924, 54.5452843, -1757.90356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    FoodSectionTeleports:Button("Full Armor", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(118.156769, 135.296585, -1181.53516, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    FoodSectionTeleports:Button("RPG", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(510.060516, 21.867878, -1483.00073, 0.999978781, -2.64674949e-08, 0.00651521608, 2.66359699e-08, 1, -2.57721648e-08, -0.00651521608, 2.59451571e-08, 0.999978781)
+    end)
+
+    --//Player Buttons
+
+     --Speed / JumpPower
+
+     MovementSectionPlayer:Button("Cam Lock", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GhoulScript/TheWare/main/Script.lua"))()
+    end)
+
+    MovementSectionPlayer:Button("Aim Assist", function()
+        loadstring(game:HttpGet("https://pst.klgrth.io/paste/ryrkt/raw"))()
+    end)
+
+    --Extra
+
+    ExtraSectionPlayer:Button("Remove Crosshair", function()
+        loadstring(game:HttpGet("https://pst.klgrth.io/paste/nb6re/raw"))()
+        NotifyLib.prompt('UHM Backdoor', 'NOTE : This is client side.', 3)
+    end)
+
+    ExtraSectionPlayer:Button("Mod Access", function()
+        loadstring(game:HttpGet("https://pst.klgrth.io/paste/558ft/raw"))()
+        loadstring(game:HttpGet("https://pst.klgrth.io/paste/b7txc/raw"))()
+    end)
+
+    --//Combat buttons
+
+    CombatSectionMain:Button("Access to Ban Panel", function()
+        loadstring(game:HttpGet("https://pst.klgrth.io/paste/59g6j/raw"))()
+        NotifyLib.prompt('UHM Backdoor', 'If you die you have to redo this action.', 3)
+    end)
+
+    --//Other buttons
+
+    EspSectionVisuals:Button("Fling Gui", function()
+        loadstring(game:HttpGet("https://pst.klgrth.io/paste/8uawz/raw"))()
+    end)
+end
